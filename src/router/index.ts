@@ -76,11 +76,16 @@ const router = createRouter({
       name: "/Ol-demo-12-wfs-modify",
       component: () => import("../views/Ol-demo-12-wfs-modify.vue"),
     },
-    // {
-    //   path: "/Ol-demo-13-wfs-draw-shapes",
-    //   name: "/Ol-demo-13-wfs-draw-shapes",
-    //   component: () => import("../views/Ol-demo-13-wfs-draw-shapes.vue"),
-    // },
+    {
+      path: "/Ol-demo-14-wfs-draw-points",
+      name: "/Ol-demo-14-wfs-draw-points",
+      component: () => import("../views/Ol-demo-14-wfs-draw-points.vue"),
+    },
+    {
+      path: "/Ol-demo-15-wfs-draw-points",
+      name: "/Ol-demo-15-wfs-draw-points",
+      component: () => import("../views/Ol-demo-15-wfs-draw-points.vue"),
+    },
   ],
 });
 

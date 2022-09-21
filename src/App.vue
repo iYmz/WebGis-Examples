@@ -31,7 +31,9 @@ import HelloWorld from "./components/HelloWorld.vue";
         <RouterLink to="/Ol-demo-10-wfs-modify">ol-demo-10-wfs-modify-abandon</RouterLink>
         <RouterLink to="/Ol-demo-11-wfs-add">ol-demo-11-wfs-add</RouterLink> 
         <RouterLink to="/Ol-demo-12-wfs-modify">ol-demo-12-wfs-wfs-modifies</RouterLink>
-        <!-- <RouterLink to="/Ol-demo-13-wfs-draw-shapes">ol-demo-13-wfs-draw-shapes</RouterLink> -->
+        <RouterLink to="/Ol-demo-14-wfs-draw-points">ol-demo-14-wfs-point-insert</RouterLink>
+        <RouterLink to="/Ol-demo-15-wfs-draw-points">ol-demo-15-wfs-point-delete</RouterLink>
+        
       </nav>
     </div>
   </header>
